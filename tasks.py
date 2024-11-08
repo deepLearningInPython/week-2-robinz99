@@ -6,7 +6,7 @@ from sklearn import datasets
 # Carry out the exercises in your own copy of the notebook that you can find at
 #    https://www.kaggle.com/code/datasniffer/perceptrons-mlp-s-and-gradient-descent.
 # Then copy and paste code asked for below in between the dashed lines.
-# Do not import additional packages.
+# Do not import additional packages. 
  
 # Task 1:
 # Instructions:
@@ -15,7 +15,7 @@ from sklearn import datasets
 # vectors in its **columns**.
 # The name of the function should be my_mlp.
  
-# Copy and paste the code for that function here:
+# Copy and paste the code for that function here
 # -----------------------------------------------
 def my_mlp(w, X, sigma=np.tanh):
     W1 = np.array(w[0:4*6]).reshape(4,6)
